@@ -1,4 +1,4 @@
-# tech_media
+# zainshaikh
 
 Demo project
 A new Flutter project.
