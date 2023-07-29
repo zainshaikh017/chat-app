@@ -1,6 +1,7 @@
 // ignore_for_file: camel_case_types
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:easy_search_bar/easy_search_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:tech_media/utils/utils.dart';
 import 'package:tech_media/view/Dashboard_Screens/Profile_screen.dart';
@@ -63,8 +64,8 @@ class _dashboard_screenState extends State<dashboard_screen>
 
 
   // PersistentTabController tabs= PersistentTabController(initialIndex: 0,);
-  
 
+  String searchValue = '';
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -74,6 +75,7 @@ class _dashboard_screenState extends State<dashboard_screen>
             automaticallyImplyLeading: false,
             centerTitle: false,
             title:  Text("Chat App"),
+
 
 
 

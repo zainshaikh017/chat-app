@@ -45,6 +45,8 @@ dependencies:
   flutter_svg: ^1.1.5
   cloud_firestore: ^4.7.0
   animated_search_bar: ^2.5.0
+  easy_search_bar: ^2.5.0
+  uuid: ^3.0.7
 #  firebase_ui_firestore: ^1.5.1
 
 
